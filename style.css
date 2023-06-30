@@ -21,7 +21,7 @@ body {
   background-image: radial-gradient(circle at center bottom, #e9b64b, #c76075 15%, #0d0d4b 75%, #190e14 90%);
 }
 
-div#sea {
+.sea {
   background-color: blue;
   height: 85px;
   position: absolute;
@@ -116,8 +116,8 @@ div#sea {
   background-size: 60px 100px;
   background-position: 28px 0;
   background-image: linear-gradient(transparent 50px,
-      #fedbab 50px,
-      #fedbab 60px,
+      #6e3811 50px,
+      #c27d4c 60px,
       transparent 60px),
     radial-gradient(circle at 30px 5px, #994c10 30px, #fcbf29 31px);
   border-radius: 10px 10px 0 0;
@@ -182,7 +182,7 @@ div#sea {
   left: 0px;
   bottom: 0px;
   top: 0px;
-  background-color: #d44;
+  background-color: cyan;
   transition: background-color .5s ease;
 }
 
@@ -197,7 +197,7 @@ div#sea {
 }
 
 .giftbox>div {
-  background: #34495e;
+  background: mediumvioletred;
   position: absolute;
 }
 
@@ -210,12 +210,12 @@ div#sea {
 
 .giftbox:after {
   position: absolute;
-  color: #fff;
+  color: lawngreen;
   width: 100%;
-  content: "Click Me!";
+  content: "Click Me!!!";
   left: 0;
   bottom: 0;
-  font-size: 24px;
+  font-size: 32px;
   text-align: center;
   transform: rotate(-20deg);
   transform-origin: 0 0;
@@ -235,7 +235,7 @@ div#sea {
   left: 50%;
   width: 50px;
   transform: translateX(-50%);
-  background: #fdc56d;
+  background: #3838a3;
 }
 
 .giftbox .cover>div {
@@ -255,7 +255,7 @@ div#sea {
   width: 100%;
   height: 100%;
   content: "";
-  box-shadow: inset 0 0 0 15px #fdc56d;
+  box-shadow: inset 0 0 0 15px #3838a3;
   border-radius: 30px;
   transform-origin: 50% 100%;
 }
@@ -280,7 +280,7 @@ div#sea {
   height: 100%;
   left: 50%;
   transform: translateX(-50%);
-  background: #fdc56d;
+  background: #3838a3;
 }
 
 .giftbox .box:after {
@@ -532,7 +532,7 @@ div#sea {
   height: 100px;
   border-radius: 50%;
   background: #ddd;
-  box-shadow: inset 20px -10px 0 0 #b9b9b9;
+  box-shadow: inset 20px -10px 7px 0 #b9b9b9;
 }
 
 .moon .crater1 {
@@ -577,16 +577,12 @@ div#sea {
     font-size: 56px;
   }
 
-  div#beach {
-    background-size: 2000px;
-  }
-
   .moon {
     right: 230px;
   }
 }
 
-.bimg{
+.bimg {
   width: 330px;
   height: 180px;
   position: absolute;
@@ -594,5 +590,5 @@ div#sea {
   left: 0;
   right: 0;
   top: 0;
-  bottom: -400px;  
+  bottom: -400px;
 }
